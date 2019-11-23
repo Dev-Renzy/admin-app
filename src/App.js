@@ -4,7 +4,7 @@ import authProvider from "./authProvider";
 import  { UserList, UserEdit, UserCreate }  from './users';
 import jsonServerProvider from "ra-data-json-server";
 
-const dataProvider =
+const dataProvider = 
   jsonServerProvider("");
 
 class App extends Component {
